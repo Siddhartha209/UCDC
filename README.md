@@ -3,9 +3,6 @@
 Make sure you have Python installed. Then, install the required dependencies:
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/UCDC.git
-
 # Navigate to the project directory
 cd UCDC
 
@@ -24,3 +21,11 @@ You also need to install Tesseract OCR on your system:
     ```bash
     sudo apt-get install tesseract-ocr
     ```
+## NOTE: 
+Two models missing due to large file size
+
+## Project Structure
+Models - YOLOv11 trained object detection/ instance segmentation models
+TestCases - Images of various tests 
+Output - Corresponding outputs to TestCases images
+main.py - Main file to run project
